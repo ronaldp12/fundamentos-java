@@ -3,10 +3,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(ejercicio1());
-        System.out.println(ejercicio2());
-        System.out.println(ejercicio3());
-        System.out.println(ejercicio15());
+        System.out.println(ejercicio30());
     }
 
         public static int ejercicio1() {
@@ -100,6 +97,106 @@ public class Main {
             x ^= 2;
             return x;
         }
+
+        //Operadores incremento y decremento
+
+        public static int ejercicio16() {
+            int x = 5;
+            int y = ++x;
+            return y;
+        }
+
+        public static void ejercicio17() {
+            int a = 5;
+            System.out.println(a++);
+            System.out.println(a);
+        }
+
+        public static int ejercicio18() {
+            int count = 10;
+            count --;
+            return count;
+        }
+
+        public static void ejercicio19() {
+            int i = 10;
+            System.out.println(++i);
+            System.out.println(i++);
+        }
+
+        public static int ejercicio20() {
+            int x = 3;
+            x = x++;
+            return x;
+        }
+
+        public static int ejercicio21() {
+            int i = 5;
+            i += ++i + i++ + ++i;
+            return i;
+        }
+
+        public static int ejercicio22() {
+            double myDouble = 23;
+            int myInt = (int) myDouble;
+            myInt++;
+            return  myInt;
+        }
+
+        public static void ejercicio23() {
+            double d = 5.7;
+            int i = (int)d;
+            i *= 2;
+            System.out.println(i--);
+        }
+
+        public static double ejercicio24() {
+            int i = 10;
+            i /= 2.0;
+            double a =(double) i;
+            return a;
+        }
+
+        public static void ejercicio25() {
+            char c = 'X';
+            c += 32;
+            System.out.println(c);
+        }
+
+        public static short ejercicio26() {
+            long d = 10;
+            short i = (short)d;
+            i *= 3;
+            return i;
+        }
+
+        public static int ejercicio27() {
+            int x = 10;
+            x += (x++) + (++x);
+            return  x;
+        }
+
+        public static byte ejercicio28() {
+            float d = 10;
+            byte i = (byte)d;
+            --i;
+            return i;
+        }
+
+        public static byte ejercicio29() {
+            int i = 257;
+            byte b = (byte)i;
+            return b;
+        }
+
+        public static int ejercicio30() {
+            double myDouble = 10;
+            int myInt = (int) myDouble;
+            myInt +=5;
+            ++myInt;
+            return  myInt;
+        }
+
 
 
 

@@ -7,8 +7,8 @@ public class Solve {
 
     public static void inicio(){
         Scanner scanner = new Scanner(System.in);
-        String menu, menu2, menu3;
-        int opcion,opcion2,opcion3, continuar;
+        String menu, menu2, menu3, menu4, menu5;
+        int opcion,opcion2,opcion3,opcion4,opcion5, continuar;
         do {
             menu="Elija una opcion\n\n";
             menu+= "1. Casteo\n";
@@ -97,8 +97,82 @@ public class Solve {
                     }
                     break;
                 case 3:
+                    menu4="Elija una opcion\n\n";
+                    menu4+= "1. Ejercicio 1\n";
+                    menu4+= "2. Ejercicio 2\n";
+                    menu4+= "3. Ejercicio 3\n";
+                    menu4+= "4. Ejercicio 4\n";
+                    menu4+= "5. Ejercicio 5\n";
+                    System.out.println(menu4);
+                    opcion4=scanner.nextInt();
+                    switch (opcion4){
+                        case 1:
+                            System.out.println(Main.ejercicio16());
+                            break;
+                        case 2:
+                            Main.ejercicio17();
+                            break;
+                        case 3:
+                            System.out.println(Main.ejercicio18());
+                            break;
+                        case 4:
+                            Main.ejercicio19();
+                            break;
+                        case 5:
+                            System.out.println(Main.ejercicio20());
+                            break;
+                        default:System.out.println("Opcion invalida");
+                            break;
+                    }
                     break;
                 case 4:
+                    menu5="Elija una opcion\n\n";
+                    menu5+= "1. Ejercicio 1\n";
+                    menu5+= "2. Ejercicio 2\n";
+                    menu5+= "3. Ejercicio 3\n";
+                    menu5+= "4. Ejercicio 4\n";
+                    menu5+= "5. Ejercicio 5\n";
+                    menu5+= "6. Ejercicio 6\n";
+                    menu5+= "7. Ejercicio 7\n";
+                    menu5+= "8. Ejercicio 8\n";
+                    menu5+= "9. Ejercicio 9\n";
+                    menu5+= "10. Ejercicio 10\n";
+                    System.out.println(menu5);
+                    opcion5=scanner.nextInt();
+                    switch (opcion5){
+                        case 1:
+                            System.out.println(Main.ejercicio21());
+                            break;
+                        case 2:
+                            System.out.println(Main.ejercicio22());
+                            break;
+                        case 3:
+                            Main.ejercicio23();
+                            break;
+                        case 4:
+                            System.out.println(Main.ejercicio24());
+                            break;
+                        case 5:
+                            Main.ejercicio25();
+                            break;
+                        case 6:
+                            System.out.println(Main.ejercicio26());
+                            break;
+                        case 7:
+                            System.out.println(Main.ejercicio27());
+                            break;
+                        case 8:
+                            System.out.println(Main.ejercicio28());
+                            break;
+                        case 9:
+                            System.out.println(Main.ejercicio29());
+                            break;
+                        case 10:
+                            System.out.println(Main.ejercicio30());
+                            break;
+                        default:System.out.println("Opcion invalida");
+                            break;
+                    }
                     break;
                 default:System.out.println("Opcion invalida");
                 break;
